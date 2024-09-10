@@ -7,7 +7,7 @@ import Login from './components/Login/Login'
 import Contact from './components/Contact/Contact'
 import Layout from './Layout'
 import Home from './components/Home/Home'
-import Signup from './components/Signup/Signup'
+import TeacherSignin from './components/Login/TeacherSignin'
 import About from './components/About/About'
 const router = createBrowserRouter([
   {
@@ -26,8 +26,8 @@ const router = createBrowserRouter([
       element: <About />
     },
     {
-      path:"signup",
-      element: <Signup />
+      path:"tsignin",
+      element: <TeacherSignin />
     },
     {
       path: "contact" ,

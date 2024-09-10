@@ -37,9 +37,9 @@ export const Navbar = () => {
                 </button>
 
                 <div className="hidden lg:flex lg:items-center lg:space-x-10">
-                    <Link to="signup" title="" className="text-base font-medium text-black"> Sign up </Link>
+                    <Link to="tsignin" title="" className="text-base font-medium text-black">Teacher's Sign in </Link>
 
-                    <Link to="signin" title="" className="text-base font-medium text-black"> Sign in </Link>
+                    <Link to="signin" title="" className="text-base font-medium text-black"> Student's Sign in </Link>
 
                     <Link to="#" title="" className="flex items-center justify-center w-10 h-10 text-white bg-black rounded-full">
                         <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -77,9 +77,9 @@ export const Navbar = () => {
                 <hr className="my-4 border-gray-200" />
 
                 <div className="flex flex-col space-y-2">
-                    <Link to="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Sign up </Link>
+                    <Link to="tsignin" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Teacher's Sign in </Link>
 
-                    <Link to="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Sign in </Link>
+                    <Link to="signin" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Student's Sign in </Link>
                 </div>
             </div>
         </div>
